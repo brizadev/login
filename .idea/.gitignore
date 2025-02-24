@@ -1,0 +1,37 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.brizollaAPI.iml
+/contentModel.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml 
+# Build e objetos do .NET
+bin/
+obj/
+
+# Arquivos de configuração sensíveis
+appsettings.Development.json
+secrets.json
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de IDE
+.vs/
+.idea/
+.vscode/
+
+# Datasource Local storage ignored files
+/dataSources.local.xml
+
+# Arquivos temporários
+*.log
+*.tmp
+*.cache
+
