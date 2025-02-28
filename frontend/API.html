@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Moderno</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: #f8f9fa;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .login-container {
+            background: rgb(17, 17, 36);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+        .form-control {
+            border-radius: 10px;
+        }
+        .btn-primary {
+            background: #007bff;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        .btn-primary:hover {
+            background: #0056b3;
+        }
+        .divider {
+            height: 2px;
+            background: #dee2e6;
+            margin: 1rem 0;
+        }
+        h4, h5 {
+            font-weight: bold;
+            color: #f5f5f5;
+        }
+        .input-group-text {
+            background: transparent;
+            border: none;
+            font-size: 1.2rem;
+            color: #c3c7cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h4 class="mb-3"> <strong>Bem-vindo!</strong> </h4>
+        <div class="divider"></div>
+        <form id="login-form">
+            <div class="mb-3 input-group">
+                <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                <label for="Email"></label><input type="email" class="form-control" id="Email" placeholder="Digite seu e-mail" required>
+            </div>
+            <div class="mb-3 input-group">
+                <span class="input-group-text"><i class="bi bi-shield-lock-fill"></i></span>
+                <label for="Senha"></label><input type="password" class="form-control" id="Senha" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./API.js"></script> 
+
+
+</body>
+</html>

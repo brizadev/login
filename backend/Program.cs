@@ -28,7 +28,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policy =>
     {
-        policy.WithOrigins("https://seusite.com")
+        // Caso for usar local especifico remover = policy.AllowAnyOrigin()
+              policy.AllowAnyOrigin()
+        // Descomente esse caso for usar local especifico = policy.WithOrigins("http://seu.local.especifico/brizollaAPI/API.html?") 
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

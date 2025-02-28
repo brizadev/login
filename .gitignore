@@ -7,6 +7,7 @@
 /.idea.brizollaAPI.iml
 /contentModel.xml
 Folder.DotSettings.user
+frontend/bootstrap01
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
@@ -19,15 +20,17 @@ obj/
 # Arquivos de configuração sensíveis
 appsettings.Development.json
 secrets.json
+package-lock.json
 
 # Arquivos de ambiente
 .env
+node_modules
 
 # Arquivos de IDE
 .vs/
 .idea/
 .vscode/
-
+brizollaAPI/.git
 # Datasource Local storage ignored files
 /dataSources.local.xml
 
@@ -41,4 +44,4 @@ secrets.json
 /backend/debug/
 /backend/obj/
 /backend/properties/
-
+/backend/CORS
