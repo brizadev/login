@@ -1,6 +1,6 @@
 # API de Login com Frontend em Bootstrap
 
-![API Login](https://via.placeholder.com/1000x400?text=API+de+Login+com+.NET+e+Bootstrap)
+![API Login](https://th.bing.com/th/id/ODLS.b5a2289b-a495-4805-ab3f-1bb4751f4682?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2)
 
 Este projeto consiste em uma API RESTful desenvolvida em **.NET 8.0** com autenticação **JWT** e um frontend construído com **Bootstrap** para interação com a API. O sistema permite gerenciar usuários, incluindo operações **CRUD** (Create, Read, Update, Delete), além de autenticação e autorização via tokens JWT.
 
