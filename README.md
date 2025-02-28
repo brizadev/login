@@ -123,10 +123,8 @@ const API_URL = 'https://localhost:5001/api';
 ## 📸 Screenshots
 
 ### Página de Login
-![Tela de Login](https://via.placeholder.com/800x400?text=Tela+de+Login)
+![Tela de Login](![frontend.png](<https://media-hosting.imagekit.io//96289520d5c14c9d/frontend.png?Expires=1835319682&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=j5X02BHK~Lu1mvejx89o-akXltKCEE2ugUKNXd0Yf67yfUt9HSyt3h6fDOPAk6MQ2LvjYWpfioMisriuLM3xttzjz6xzid1J0n6Gy52oHDvM5K3pYkHG9H7uJ5VlXF-JE2x7WYoMsoT9bLtrfom4JkBdjLBkkfEK7ejGhkH-EL4788RLn3WmdF9KU54tkhFtUtKUPqUG5FnDlBShU4tFWC~e4ZHdE9RE9ztT-SbjWvHEviDPLAmT8QspaUxUvEFhVAJTM-bX7shO2Aqn9qeN04or~JsGSdrqfHFXPg7o94ovIsmSW6e0d5um-CaOJ28-YmNpcNRpvZer0PldWHd8~w__>))
 
-### Página de Cadastro
-![Tela de Cadastro](https://via.placeholder.com/800x400?text=Tela+de+Cadastro)
 
 ### Listagem de Usuários
 ![Listagem de Usuários](https://via.placeholder.com/800x400?text=Listagem+de+Usuários)
